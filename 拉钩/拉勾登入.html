@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="enter.css">
+</head>
+<body>
+<header class="sso_header">
+    <a href="javascript:;" class="logo"></a>
+</header>
+<div class="content_box">
+    <div class="left_area fl">
+        <form action="javascript:;">
+            <div class="form_body">
+                <div class="input_item" style="display: block;">
+                    <input type="text" class="input input_white" placeholder="请输入已验证手机/邮箱" autocomplete="off">
+                    <span class="input_tips" style="display: none">请输入已验证手机/邮箱</span>
+                </div>
+                <div class="input_item clearfix" style="display: block;">
+                    <input type="password" class="input input_white" placeholder="请输入密码" autocomplete="off">
+                    <span class="input_tips" style="display: none">请输入密码</span>
+                </div>
+                <div class="input_item" style="display:none;">
+                    <input type="text" class="input input_white fl" style="width:130px; display:block;"
+                           placeholder="请证明你不是机器人" autocomplete="off">
+                    <img src="" alt="" class="yzm">
+                    <a href="javascript:;" class="reflash"></a>
+                </div>
+                <div class="input_item clearfix">
+                    <a href="https://passport.lagou.com/accountPwd/toReset.html" class="forgot_pwd">忘记密码？</a>
+                </div>
+                <div class="input_item clearfix" style="display: block;">
+                    <input type="submit" class="btn btn_green btn_active btn_block btn_lg" value="登&nbsp;录">
+                </div>
+                <div class="input_item clearfix">
+                    <h5 class="reg_now">还没有拉勾帐号？<a href="../register/register.html">立即注册</a></h5>
+                </div>
+                <input type="hidden" value="" id="isVisiable_request_form_verifyCode">
+            </div>
+        </form>
+    </div>
+    <div class="divider fl">
+        <img src="img/divider-login_3362138.jpg" alt="分割线">
+    </div>
+    <div class="right_area fl">
+        <h5>使用以下帐号直接登录:</h5>
+        <ul class="vender_login clearfix">
+            <li><a href="javascript:;" title="使用新浪微博帐号登录" class="vender_icon icon_sina" target="_blank"></a></li>
+            <li><a href="javascript:;" title="使用腾讯QQ帐号登录" class="vender_icon icon_tencent" target="_blank"></a></li>
+            <li class="last_child"><a href="javascript:;" class="vender_icon icon_wechat" title="使用微信帐号登录"
+                                      target="_blank"></a></li>
+        </ul>
+        <div class="qrcode">
+            <img src="img/qrcode_0ec6bff.jpg" alt="二维码">
+            <p>[ 扫码下载拉勾APP ]</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <h4 class="slogan">— 专注互联网职业机会 —</h4>
+</footer>
+
+</body>
+</html>
+<script src="tool/utils.js"></script>
+<script src="tool/tween.js"></script>
+<script src="tool/event.js"></script>
+<script type="text/javascript">
+    var phoneReg = /^1[0-9]{10}/;
+    var emainReg = /[a-zA-Z0-9]{1,10}@[a-zA-Z0-9]{1,5}\.[a-zA-Z0-9]{1,5}/;
+    var passwordReg = /^[a-zA-Z]{1}([a-zA-Z0-9]|[._]){4,19}$/;
+    var submitBtn = document.getElementsByClassName("btn_green")[0];
+    var input_tips = document.getElementsByClassName("input_tips");
+    var input_white= document.getElementsByClassName("input_white");
+    on(submitBtn, "click", function (e) {
+        if(!phoneReg.test(input_white[0].value)&&!emainReg.test(input_white[0].value)){
+            input_tips[0].style.display="block";
+        }
+        if(!passwordReg.test(input_white[1].value)){
+            input_tips[1].style.display="block";
+        }
+        on(input_white[0], "blur", function (e) {
+            if(!phoneReg.test(input_white[0].value)&&!emainReg.test(input_white[0].value)){
+                input_tips[0].style.display="block";
+            }
+        });
+        on(input_white[1], "blur", function (e) {
+            if(!passwordReg.test(input_white[1].value)){
+                input_tips[1].style.display="block";
+            }
+        });
+        on(input_white[0], "focus", function (e) {
+            if(!phoneReg.test(input_white[0].value)&&!emainReg.test(input_white[0].value)){
+                input_tips[0].style.display="none";
+            }
+        });
+        on(input_white[1], "focus", function (e) {
+            if(!passwordReg.test(input_white[1].value)){
+                input_tips[1].style.display="none";
+            }
+        })
+                });
+
+</script>

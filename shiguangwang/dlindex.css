@@ -1,0 +1,1325 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #333;
+    font-family: "Microsoft Yahei", Arial, SimSun;
+}
+a,a:hover{
+    text-decoration: none;;
+
+}
+ul,li,dl,ol,dd,dt{
+    list-style: none;
+}
+input,img{
+    border: none;
+}
+#register_login{
+    width: 100%;
+    background:url("img/html_bg.jpg") repeat;
+    height: 868px;
+}
+#loginHeader{
+    width: 100%;
+    height: 60px;
+    background: #192332;
+}
+#loginHeader .w1092{
+    width: 1092px;
+    height: 60px;
+    background: #192332;
+    min-width: 1092px;
+    padding: 0 88px 0 20px;
+    position: relative;
+
+}
+#loginHeader .w1092 .headbarnav{
+    width: 390px;
+    height: 60px;
+    line-height: 60px;
+}
+#loginHeader .w1092 .headbarnav li a{
+    margin-right:30px ;
+    font-size: 15px;
+    color: #c8c8c8;
+    float: left;
+}
+#loginHeader .w1092 .headbarnav li a:hover{
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+#loginHeader .w1092 .weblogo{
+    position: absolute;
+    width: 136px;
+    height: 42px;
+    background: url("png/head.png");
+    background-position: 0 0  ;
+    left: 50%;
+    margin-left: -68px;
+    top: 9px;
+}
+
+#loginHeader .w1092 .shoppingcar{
+    width: 68px;
+    height: 64px;
+    background: #e83729;
+    position: absolute;
+    top: 0;
+    right: -130px;
+}
+#loginHeader .w1092 .shoppingcar i{
+    width: 30px;
+    height: 24px;
+    background: url("png/head.png") no-repeat 0 -45px;
+    display: block;
+    margin: 20px 19px;
+}
+
+#loginHeader .w1092 .shoppingcar .shoppimgdetail{
+   display: none;
+    position: absolute;
+    left: -282px;
+    top: 63px;
+    width: 350px;
+    height: 215px;
+    background: #fff;
+    text-align: center;
+    line-height: 203px;
+    font-style: normal;
+    z-index: 2;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #e83729;
+}
+#loginHeader .w1092 .shoppingcar .shoppimgdetail span{
+    color: #999;
+
+}
+#loginHeader .w1092 .reg_login{
+    width: 169px;
+    height: 60px;
+    position: absolute;
+    right: -42px;
+    top: 0;
+}
+#loginHeader .w1092 .reg_login  a{
+    color: #c8c8c8;
+    font-size: 12px;
+    width: 24px;
+    height: 60px;
+    display: inline-block;
+  line-height: 60px;
+}
+#loginHeader .w1092 .reg_login  a:hover{
+    color: #fff;
+    background: transparent;
+}
+#loginHeader .w1092 .reg_login  .left{
+    margin-left: 30px;
+}
+#loginHeader .w1092 .reg_login  .right{
+    float: right;
+    margin-right: 30px;
+}
+
+#loginHeader .w1092 .reg_login b{
+margin-left: 26px;
+    color:#c8c8c8 ;
+}
+#loginHeader .w1092 .phone{
+    width: 73px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 142px;
+    border-right:1px solid #303947; ;
+    border-left: 1px solid #303947;
+    opacity: 0.7;
+    z-index: 5px;
+}
+#loginHeader .w1092 .phone .erweima{
+   display: none;
+    position: absolute;
+    left: -70px;
+    top: 59px;
+    width: 165px;
+    height: 175px;
+    background: #fff;
+    text-align: center;
+    line-height: 203px;
+    font-style: normal;
+    z-index: 5;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+
+}
+#loginHeader .w1092 .phone em {
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    top: -16px;
+    left: 96px;
+    border-top: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff  ;
+}
+#loginHeader .w1092 .phone .erweima b{
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    display: inline-block;
+    top:15px;
+    left: 25px;
+    background: #00ff00;
+    background: url("png/head.png") no-repeat 0 -195px;
+}
+#loginHeader .w1092 .phone span{
+    display:inline-block ;
+    width: 115px;
+    height: 18px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    color: #999;
+
+
+}
+#loginHeader .w1092 .phone:hover{
+    opacity: 1;
+}
+#loginHeader .w1092 .phone i{
+    width: 20px;
+    display: inline-block;
+    height: 28px;
+    margin-left: 17px;
+    margin-top: 16px;
+    background: url("png/head.png") no-repeat -54px -45px;
+}
+#loginHeader .w1092 .phone b{
+    position: absolute;
+    right: 17px;
+    top: 28px;
+    width: 8px;
+    display: inline-block;
+    height: 4px;
+    background: url("png/head.png") no-repeat -140px 0px;
+    border-right: transparent;
+
+}
+#loginHeader .w1092 .fangdajing{
+    width: 56px;
+    height: 60px;
+    position: absolute;
+    top: 0;right: 217px;
+}
+#loginHeader .w1092 .fangdajing a{
+    width: 24px;
+    height: 26px;
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 15px;
+    opacity: 0.7;
+    background: url("png/head.png") no-repeat -134px -39px;
+}
+#loginHeader .w1092 .fangdajing a:hover{
+    opacity: 1;
+}
+#loginBodies{
+    width: 1000px;
+    height: 657px;
+    position: relative;
+    left: 175px;
+    top: 100px;
+    background: #fff;
+}
+#loginBodies .regin_line{
+    position: absolute;
+    width: 1px;
+    height: 482px;
+    left: 50%;
+    top: 8%;
+    background: url("png/reg24.png")no-repeat 0 0;
+}
+#loginBodies .loginleft{
+    width: 380px;
+    height: 567px;
+    position: absolute;
+    left:60px;
+    top: 30px;
+}
+#loginBodies .loginleft h3{
+    width: 380px;
+    height: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+#loginBodies .loginleft ul{
+    width: 380px;
+    height: 34px;
+    cursor: pointer;
+}
+#loginBodies .loginleft ul li{
+    width: 190px;
+    height: 34px;
+    float: left;
+    line-height: 34px;
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#loginBodies .loginleft ul li.on{
+    border-bottom:2px solid #1689df;
+    color: #1689df;
+}
+#loginBodies .loginleft .res .res_phone{
+    width: 380px;
+    height: 437px;
+
+}
+#loginBodies .loginleft .res{
+    display: none;
+    width: 380px;
+    height: 437px;
+}
+#loginBodies .loginleft .res.on{
+    display: block;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input1{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input1 input{
+    width: 363px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input1  .nottrue{
+    display: none;
+    width: 358px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .loginleft .res  .res_phone .res_phone_input2{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input2  .nottrue{
+    display: none;
+    width: 358px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input2 input{
+    width: 363px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input2 .password_box{
+    width: 55px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input2 .password_box p{
+    color: #949494;
+    font-size: 12px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input2 .password_box b{
+    position: absolute;
+    top: 20px;
+    display: inline-block;
+    width: 55px;
+    height: 4px;
+    color: #949494;
+    font-size: 12px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input2 .password_box b i{
+    width: 14px;
+    height: 4px;
+    background:#c5c5c5 ;
+    float: left;
+    margin-left: 1px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input3{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input3 .nottrue{
+    display: none;
+    width: 358px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input3 input{
+    width: 363px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input4{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input4  .nottrue{
+    display: none;
+    width: 358px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input4 input{
+    width: 363px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_phone .res_phone_input4 .reg_smscodeBtn{
+    width: 90px;
+    height: 34px;
+    display: inline-block;
+    position: absolute;
+    top: 33px;
+    right: 10px;
+    border: 1px solid #b6b6b6;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #333;
+    line-height: 34px;
+    text-align: center;
+    padding:0 15px;
+}
+#loginBodies .loginleft .res .res_phone .reg_selsex{
+   width: 380px;
+    height: 44px;
+    position: relative;
+}
+#loginBodies .loginleft .res .res_phone .reg_selsex .reg_selsex_b{
+    width: 380px;
+    height: 16px;
+    position: absolute;
+    top: 28px;
+
+    line-height: 20px;
+}
+#loginBodies .loginleft .res .res_phone .reg_selsex .reg_selsex_b span{
+    color: #a5a5a5;
+    font-size: 14px;
+
+}
+#loginBodies .loginleft  .res .res_phone .reg_selsex .reg_selsex_b i{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("png/reg24.png") no-repeat;
+
+}
+#loginBodies .loginleft .res .res_phone .reg_selsex .reg_selsex_b .boy{
+    background-position: -2px -209px;
+}
+#loginBodies .loginleft .res .res_phone .reg_selsex .reg_selsex_b .girl{
+    background-position: -21px -209px;
+}
+#loginBodies .loginleft .res .res_phone .reg_selsex .reg_selsex_b input{
+    width: 20px;
+    height: 17px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+#loginBodies .loginleft .res .res_phone .bind_pro{
+    width: 380px;
+    height:45px ;
+    position: relative;
+}
+#loginBodies .loginleft .res .res_phone .bind_pro b{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 19px;
+    background: url("png/reg24.png") no-repeat -2px 0;
+}
+#loginBodies .loginleft .res .res_phone .bind_pro .bind_pro_a{
+    position: absolute;
+    left: 30px;
+    top:22px;
+    color:#0085e5 ;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: baseline;
+
+}
+#loginBodies .loginleft .res .res_phone .btn_submit{
+    width: 380px;
+    height: 88px;
+    position: relative;
+}
+#loginBodies .loginleft .res .res_phone .btn_submit .button{
+    width: 257px;
+    height: 53px;
+    background:#0081bc ;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 27px;
+    line-height: 53px;
+    text-align: center;
+    position: absolute;
+    left: 53px;
+    top: 34px;
+}
+#loginBodies .loginleft .res .res_mail{
+    width: 380px;
+    height: 437px;
+}
+
+#loginBodies .loginleft .res .res_mail .res_phone_input1{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input1  .nottrue{
+    display: none;
+    width: 358px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input1 input{
+    width: 363px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input2{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input2  .nottrue{
+    display: none;
+    width: 358px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input2 input{
+    width: 363px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input2 .password_box{
+    width: 55px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input2 .password_box p{
+    color: #949494;
+    font-size: 12px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input2 .password_box b{
+    position: absolute;
+    top: 20px;
+    display: inline-block;
+    width: 55px;
+    height: 4px;
+    color: #949494;
+    font-size: 12px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input2 .password_box b i{
+    width: 14px;
+    height: 4px;
+    background:#c5c5c5 ;
+    float: left;
+    margin-left: 1px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input3{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input3  .nottrue{
+    display: none;
+    width: 358px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input3 input{
+    width: 363px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input4{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input4  .nottrue{
+    display: none;
+    width: 185px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input4 input{
+    width: 188px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input4 .reg_smscodeBtn{
+    width: 120px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 40px;
+    border: 1px solid #b6b6b6;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #333;
+    line-height: 60px;
+    text-align: center;
+    display: none;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input4 .shuaxin{
+    width: 25px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 39px;
+    font-size: 12px;
+    color: #08c;
+    text-decoration: underline;
+    display: none;
+}
+#loginBodies .loginleft .res .res_mail .res_phone_input4 .shuaxin2{
+    display: none;
+}
+#loginBodies .loginleft .res .res_mail .reg_selsex{
+    width: 380px;
+    height: 44px;
+    position: relative;
+}
+#loginBodies .loginleft  .res .res_mail .reg_selsex .reg_selsex_b{
+    width: 380px;
+    height: 16px;
+    position: absolute;
+    top: 28px;
+
+    line-height: 20px;
+}
+#loginBodies .loginleft .res .res_mail .reg_selsex .reg_selsex_b span{
+    color: #a5a5a5;
+    font-size: 14px;
+
+}
+#loginBodies .loginleft .res .res_mail .reg_selsex .reg_selsex_b i{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("png/reg24.png") no-repeat;
+
+}
+#loginBodies .loginleft .res .res_mail .reg_selsex .reg_selsex_b .boy{
+    background-position: -2px -209px;
+}
+#loginBodies .loginleft .res .res_mail .reg_selsex .reg_selsex_b .girl{
+    background-position: -21px -209px;
+}
+#loginBodies .loginleft .res .res_mail .reg_selsex .reg_selsex_b input{
+    width: 20px;
+    height: 17px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+#loginBodies .loginleft .res .res_mail .bind_pro{
+    width: 380px;
+    height:45px ;
+    position: relative;
+}
+#loginBodies .loginleft .res .res_mail .bind_pro b{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 19px;
+    background: url("png/reg24.png") no-repeat -2px 0;
+}
+#loginBodies .loginleft .res .res_mail .bind_pro .bind_pro_a{
+    position: absolute;
+    left: 30px;
+    top:22px;
+    color:#0085e5 ;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: baseline;
+
+}
+#loginBodies .loginleft .res .res_mail .btn_submit{
+    width: 380px;
+    height: 88px;
+    position: relative;
+}
+#loginBodies .loginleft .res .res_mail .btn_submit .button{
+    width: 257px;
+    height: 53px;
+    background:#0081bc ;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 27px;
+    line-height: 53px;
+    text-align: center;
+    position: absolute;
+    left: 53px;
+    top: 34px;
+}
+
+#loginBodies .regright{
+    width: 380px;
+    height: 567px;
+    position: absolute;
+    right:60px;
+    top: 30px;
+}
+#loginBodies .regright h3{
+    width: 380px;
+    height: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+}
+#loginBodies .regright ul{
+    width: 380px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+}
+
+#loginBodies .regright .res_phone{
+    width: 380px;
+    height: 437px;
+    /* display: none;*/
+}
+#loginBodies .regright .res_phone .res_phone_input1{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+}
+#loginBodies .regright .res_phone .res_phone_input1  .nottrue{
+    display: none;
+    width: 358px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .regright .res_phone .res_phone_input1 input{
+    width: 363px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .regright .res_phone .res_phone_input2{
+    width: 380px;
+    height: 74px;
+    position: relative;
+    border-radius: 5px;
+
+}
+#loginBodies .regright .res_phone .res_phone_input2  .nottrue{
+    display: none;
+    width: 358px;
+    height: 20px;
+    color: #d84459;
+    background: #ffebec;
+    border: 1px solid #e88a9b;
+    font-size: 12px;
+    padding-left: 20px ;
+    line-height: 20px;
+}
+#loginBodies .regright .res_phone .res_phone_input2 input{
+    width: 363px;
+    height: 49px;
+    margin-top: 25px;
+    border:1px solid #333 ;padding-left: 14px;
+    line-height: 14px;
+    color: #a5a5a5;
+    border-radius: 5px;
+}
+#loginBodies .regright .res_phone .res_phone_input2 .password_box{
+    width: 55px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+
+}
+#loginBodies .regright .res_phone .res_phone_input2 .password_box p{
+    color: #949494;
+    font-size: 12px;
+}
+#loginBodies .regright .res_phone .res_phone_input2 .password_box b{
+    position: absolute;
+    top: 20px;
+    display: inline-block;
+    width: 55px;
+    height: 4px;
+    color: #949494;
+    font-size: 12px;
+}
+#loginBodies .regright .res_phone .res_phone_input2 .password_box b i{
+    width: 14px;
+    height: 4px;
+    float: left;
+    margin-left: 1px;
+}
+
+
+#loginBodies .regright .res_phone .bind_pro{
+    width: 380px;
+    height:45px ;
+    position: relative;
+}
+#loginBodies .regright .res_phone .bind_pro b{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 19px;
+    background: url("png/reg24.png") no-repeat -2px 0;
+}
+#loginBodies .regright .res_phone .bind_pro .forgetword{
+    position: absolute;
+    right: 30px;
+    top:22px;
+    color:#0085e5 ;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+#loginBodies .regright .res_phone .bind_pro .autologin{
+    position: absolute;
+    left: 30px;
+    top:22px;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: baseline;
+
+}
+#loginBodies .regright .res_phone .btn_submit{
+    width: 380px;
+    height: 88px;
+    position: relative;
+}
+#loginBodies .regright .res_phone .btn_submit .button{
+    width: 257px;
+    height: 53px;
+    background:#0081bc ;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 27px;
+    line-height: 53px;
+    text-align: center;
+    position: absolute;
+    left: 53px;
+    top: 34px;
+}
+#loginBodies .regright .res_phone .otherways{
+    width: 380px;
+    height: 98px;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    padding-top: 35px;
+}
+#loginBodies .regright .res_phone .otherways p{
+    width: 380px;
+    height: 18px;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+#loginBodies .regright .res_phone .otherways .wx_xl{
+    width: 380px;
+    height: 80px;
+    padding-top: 25px;
+}
+#loginBodies .regright .res_phone .otherways .wx_xl a{
+    width: 52px;
+    height: 50px;
+    display: inline-block;
+    background: url("png/reg24.png") no-repeat;
+
+}
+#loginBodies .regright .res_phone .otherways .wx_xl .xl{
+    margin-left: 118px;
+    background-position: -2px -48px;
+}
+#loginBodies .regright .res_phone .otherways .wx_xl .qq{
+    margin-left: 25px;
+    background-position: -2px -98px;
+}
+
+
+
+
+
+
+
+ #bottom{
+    width: 100%;
+    height: 361px;
+    position: relative;
+    top: 147px;
+    background: #f7f7f7;
+}
+ #bottom #footout{
+    width: 100%;
+    height: 226px;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+
+ #bottom #footout .colorfulline{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 5px;
+    background: url("png/foot.png") repeat-x;
+    overflow: hidden;
+}
+
+
+
+
+
+ #bottom #footout .footinner{
+    width: 1000px;
+    height: 226px;
+    margin-left: 175px;
+}
+
+ #bottom #footout .footinner .footinner_content{
+    width: 1000px;
+    height: 186px;
+    margin-top: 40px;
+
+}
+ #bottom #footout .footinner .footinner_content .fotlogo{
+    width: 200px;
+    height: 186px;
+    float: left;
+    position: relative;
+}
+ #bottom #footout .footinner .footinner_content .fotlogo i{
+    width: 136px;
+    height: 44px;
+    display: inline-block;
+    background: #FFFFFF;
+    position: absolute;
+    background: url("png/foot.png") no-repeat;
+    background-position: 0 -9px;
+
+}
+ #bottom #footout .footinner .footinner_content .fotlogo p{
+    display: block;
+    width: 160px;
+    height: 23px;
+    font-style: normal;
+}
+ #bottom #footout .footinner .footinner_content .fotlogo .top{
+    margin-top: 55px;
+}
+ #bottom #footout .footinner .footinner_content .fotlogo b{
+    width: 1px;
+    height: 157px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background: url("png/foot.png") no-repeat;
+    background-position: -495px  -9px;
+}
+
+
+
+
+
+ #bottom #footout .footinner .footinner_content .fotmap{
+    width: 370px;
+    height: 157px;
+    float: left;
+    padding-left: 35px;
+}
+ #bottom #footout .footinner .footinner_content .fotmap span{
+    font-style: normal;
+    font-size: 13px;
+    color: #333;
+}
+ #bottom #footout .footinner .footinner_content .fotmap p{
+    font-style: normal;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+
+
+ #bottom #footout .footinner .footinner_content .fotmap .logos{
+    width: 52px;
+    height: 140px;
+    display: inline-block;
+    float: right;
+    margin: -142px 27px 0 0;;
+}
+ #bottom #footout .footinner .footinner_content .fotmap .logos .focus{
+    color: #333;
+    font-size: 13px;
+    font-style: normal;
+    width: 52px;
+    height: 26px;
+    display: inline-block;
+    line-height: 26px;
+    text-align: center;
+}
+ #bottom #footout .footinner .footinner_content .fotmap .logos li{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    background: url("png/foot.png") no-repeat;
+}
+ #bottom #footout .footinner .footinner_content .fotmap .logos .li1{
+    background-position: -140px  -9px;
+}
+ #bottom #footout .footinner .footinner_content .fotmap .logos .li2{
+    background-position: -170px  -9px;
+}
+ #bottom #footout .footinner .footinner_content .fotmap .logos .li3{
+    background-position: -200px  -9px;
+}
+ #bottom #footout .footinner .footinner_content .fotmap b{
+    width: 1px;
+    height: 157px;
+    position: absolute;
+    top: 41px;
+    left: 785px;
+    background: url("png/foot.png") no-repeat;
+    background-position: -495px  -9px;
+}
+
+
+ #bottom #footout .footinner .footinner_content .fotweek{
+    width: 203px;
+    height: 157px;
+    float: left;
+    margin-left: 10px;
+
+}
+ #bottom #footout .footinner .footinner_content .fotweek{
+    padding:0 15px ;
+    width: 172px;
+    height: 157px;
+}
+ #bottom #footout .footinner .footinner_content .fotweek .clearfix{
+    width: 172px;
+    height: 21px;
+    display: block;
+    position: relative;
+}
+ #bottom #footout .footinner .footinner_content .fotweek .clearfix strong{
+    font-size: 18px;
+    color: #7d7d7d;
+    font-style: normal;
+    font-weight: normal;
+}
+ #bottom #footout .footinner .footinner_content .fotweek .clearfix span{
+    float: right;
+    font-size: 13px;
+    color: #7d7d7d;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 5px;
+}
+ #bottom #footout .footinner .footinner_content .fotweek dl .img3 {
+    display: block;
+    height: 80px;
+    width: 172px;
+    margin-top: 15px;
+}
+ #bottom #footout .footinner .footinner_content .fotweek dl .img3 img{
+    width: 100%;
+    height: 100%;
+}
+ #bottom #footout .footinner .footinner_content .fotweek dl .input{
+    width: 163px;
+    height: 25px;
+    margin-top: 10px;
+    display: block;
+    border-radius: 20px;
+    margin-left: 5px;
+    position: relative;
+
+}
+ #bottom #footout .footinner .footinner_content .fotweek dl .input input{
+    width: 163px;
+    height: 25px;
+    color:#a5a5a5 ;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+ #bottom #footout .footinner .footinner_content .fotweek dl .input b{
+    width: 54px;
+    height: 27px;
+    display: inline-block;
+    background: url("png/foot.png") no-repeat;
+    background-position: -330px -9px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
+    line-height: 25px;
+
+}
+ #bottom #footout .footinner .footinner_content .fothr{
+    width: 155px;
+    height: 161px;
+    float: right;
+    position: relative;
+}
+ #bottom #footout .footinner .footinner_content .fothr dl dt{
+    width: 135px;
+    height: 20px;
+    font-style: normal;
+    color: #7d7d7d;
+    font-size: 12px;
+}
+ #bottom #footout .footinner .footinner_content .fothr dl dt strong{
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+}
+ #bottom #footout .footinner .footinner_content .fothr dl .erweima{
+    width: 99px;
+    height: 99px;
+    display: block;
+    position: absolute;
+    left: 22px;
+    top: 30px;
+    background: url("png/foot.png") no-repeat;
+    background-position: -795px -9px;
+}
+
+ #bottom #footout .footinner .footinner_content .fothr dl .saomiao{
+    width: 155px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    top: 135px;
+    font-style: normal;
+    color: #333;
+}
+
+
+
+
+
+
+ #bottom #db_foot{
+    width: 100%;
+    height: 135px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 227px;
+    color: #7e7e7f;
+
+}
+ #bottom #db_foot p{
+    font-style: normal;
+    font-size: 12px;
+    color: #7e7e7f;
+    text-align: center;
+    margin-top: 5px;
+}
+ #bottom #db_foot .p1{
+    display: inline-block;
+    margin-top: 30px;
+    text-align: center;
+
+
+}
+ #bottom #db_foot .honst{
+    width: 160px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    left: 590px;
+    top: 91px;
+}
+ #bottom #db_foot .honst a{
+    width: 76px;
+    height: 25px;
+    display: inline-block;
+    background: url("gif/allicon.gif")no-repeat;
+}
+ #bottom #db_foot .honst .left{
+    float: left;
+    background-position: 6px -120px;
+}
+ #bottom #db_foot .honst .right{
+    float: right;
+    background-position: -68px -120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
